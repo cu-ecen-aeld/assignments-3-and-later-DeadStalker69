@@ -12,7 +12,7 @@ echo "$writestr" > "$filedir"
 
 if ! [ $? -eq 0 ]
 then echo "Could not create directry."
-exit 1;
+exit 1
 fi
 
 echo "Successfully added $writestr to $filedir ."
